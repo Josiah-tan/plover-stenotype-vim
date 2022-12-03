@@ -1,0 +1,46 @@
+action: GLOB, msg: packaging
+cwd: /home/chicken/plover-stenotype-vim
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing plover_stenotype_vim.egg-info/PKG-INFO
+writing dependency_links to plover_stenotype_vim.egg-info/dependency_links.txt
+writing entry points to plover_stenotype_vim.egg-info/entry_points.txt
+writing requirements to plover_stenotype_vim.egg-info/requires.txt
+writing top-level names to plover_stenotype_vim.egg-info/top_level.txt
+reading manifest file 'plover_stenotype_vim.egg-info/SOURCES.txt'
+writing manifest file 'plover_stenotype_vim.egg-info/SOURCES.txt'
+running check
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating plover-stenotype-vim-1.0.0
+creating plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying files to plover-stenotype-vim-1.0.0...
+copying README.md -> plover-stenotype-vim-1.0.0
+copying setup.cfg -> plover-stenotype-vim-1.0.0
+copying setup.py -> plover-stenotype-vim-1.0.0
+copying stenotype_vim.py -> plover-stenotype-vim-1.0.0
+copying plover_stenotype_vim.egg-info/PKG-INFO -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying plover_stenotype_vim.egg-info/SOURCES.txt -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying plover_stenotype_vim.egg-info/dependency_links.txt -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying plover_stenotype_vim.egg-info/entry_points.txt -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying plover_stenotype_vim.egg-info/requires.txt -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying plover_stenotype_vim.egg-info/top_level.txt -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+copying plover_stenotype_vim.egg-info/zip-safe -> plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info
+Writing plover-stenotype-vim-1.0.0/setup.cfg
+creating '.tox/dist/plover-stenotype-vim-1.0.0.zip' and adding 'plover-stenotype-vim-1.0.0' to it
+adding 'plover-stenotype-vim-1.0.0'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info'
+adding 'plover-stenotype-vim-1.0.0/README.md'
+adding 'plover-stenotype-vim-1.0.0/stenotype_vim.py'
+adding 'plover-stenotype-vim-1.0.0/PKG-INFO'
+adding 'plover-stenotype-vim-1.0.0/setup.py'
+adding 'plover-stenotype-vim-1.0.0/setup.cfg'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/zip-safe'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/PKG-INFO'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/dependency_links.txt'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/requires.txt'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/top_level.txt'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/SOURCES.txt'
+adding 'plover-stenotype-vim-1.0.0/plover_stenotype_vim.egg-info/entry_points.txt'
+removing 'plover-stenotype-vim-1.0.0' (and everything under it)
