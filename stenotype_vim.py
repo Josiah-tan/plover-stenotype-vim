@@ -11,6 +11,12 @@ KEYS = (
 
 IMPLICIT_HYPHEN_KEYS = ('A-', 'O-', '-E', '-U', '@', '*')
 
+NUMBER_KEY = None
+
+NUMBERS = {}
+
+FERAL_NUMBER_KEY = False
+
 KEYMAPS = {
     'Gemini PR': {  # for multisteno
         '#'         : ('#1', '#2', '#3', '#4', '#5', '#6', '#7', '#8', '#9', '#A', 'S1-'),
